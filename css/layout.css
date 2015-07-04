@@ -28,6 +28,7 @@
   left:40%;
   margin-top:-50px;
   margin-left:-50px;
+  box-shadow: 1px 2px 8px rgba(136, 136, 136, 0.35);
 }
 
 .txfornecedor {
@@ -193,4 +194,312 @@ input[type=checkbox] {
   font-size: 12px;
   line-height: 1.5;
   border-radius: 3px;
+}
+
+.titulo_topo{
+  margin-top: 150px;
+  margin-bottom: 60px;
+}
+
+.topo {
+  width: 200px;
+  border: 1px solid #285a82;
+  border-radius: 2px;
+  line-height: 30px;
+}
+.tabela_produtos{
+  color: #9296a0;
+  background-color: #dfe7ea;
+  line-height: 40px!important;
+  border-top:0px!important;
+  border-bottom:20px solid #eaf0f2;
+}
+.valor{
+  color:#005984;
+  font-weight: bold;
+}
+.botao_tabela{
+  background: #eaf0f2!important;
+
+}
+
+.normal {
+  width: 250px;
+  border: 1px solid #285a82;
+  border-radius: 2px;
+  line-height: 30px;
+}
+
+.texto_area{
+
+  margin-top: 20px;
+  border: 1px solid #285a82;
+}
+.cobrar{
+  background-color: #dfe7ea;
+  width: 350px;
+  height: 150px;
+}
+.conteudo{
+  padding: 20px;
+  color: #005984;
+
+}
+hr .conteudo{
+  height: 2px;
+  width: 100px;
+  border-color: #005984!important -moz-use-text-color -moz-use-text-color;
+  border-style: solid none none;
+}
+
+.pagar_tabela{
+  
+  border-top:2px solid #c8d3d7!important;
+  background-color: #dfe7ea;
+  color: #005984;
+  font-weight: bold;
+}
+
+
+.lancamento_tabela{
+  
+
+  background-color: #dfe7ea;
+  color: #9a9fa7;
+  
+}
+.radio{
+  margin-top: -5px!important;
+}
+
+.btn-salvar{
+  color: #fff;
+  background-color: #0c0530;
+  border-color: #0c0530;
+  width: 150px;
+
+}
+.btn-salvar:hover,
+.btn-salvar:focus,
+.btn-salvar.focus,
+.btn-salvar:active,
+.btn-salvar.active,
+.open > .dropdown-toggle.btn-salvar {
+  color: #fff;
+  background-color: #3f3576;
+  border-color: #3f3576;
+}
+
+.enviar_email{
+  margin-left: 30px;
+  min-width: 87px;
+  min-height: 54px;
+  background-image: url("../img/enviar_email.png");
+
+}
+.enviar_email:hover{
+  margin-left: 30px;
+  min-width: 87px;
+  min-height: 54px;
+  background-image: url("../img/enviar_email_hover.png");
+
+}
+
+.imprimir{
+
+  min-width: 87px;
+  min-height: 54px;
+  background-image: url("../img/imprimir.png");
+
+}
+.imprimir:hover{
+ 
+  min-width: 87px;
+  min-height: 54px;
+  background-image: url("../img/imprimir_hover.png");
+
+}
+
+.cancelar{
+
+  min-width: 87px;
+  min-height: 54px;
+  background-image: url("../img/cancelar.png");
+
+}
+.cancelar:hover{
+ 
+  min-width: 87px;
+  min-height: 54px;
+  background-image: url("../img/cancelar_hover.png");
+
+}
+
+.valor_pagamento{
+  margin-bottom: 50px;
+  background-color: #cddee5;
+  color: #457a9a;
+  width: 200px;
+  height: 50px;
+}
+.valor_{
+  padding: 10px;
+  font-weight: 600;
+}
+.input_parcela{
+
+
+  width: 150px;
+  border: 1px solid #285a82;
+  border-radius: 2px;
+  line-height: 30px;
+
+}
+.gerar_parcelas{
+
+  margin-left: 48px;
+  color: #628ba6;
+  outline-style: #a1b8c7;
+  text-decoration:underline #a1b8c7;
+}
+
+.incluir_produto{
+
+
+  color: #628ba6;
+  outline-style: #a1b8c7;
+  text-decoration:underline #a1b8c7;
+}
+
+.total{
+  background-color: #cddee5;
+  margin-top: 20px;
+}
+
+.tabela_total{
+  color: #337093;
+  font-weight: 600;
+  background-color: #cddee5;
+  line-height: 40px!important;
+  border-top:0px!important;
+
+}
+.info{
+  margin-left: 10px;
+}
+
+
+
+
+a.tooltips {
+  position: relative;
+  display: inline;
+}
+a.tooltips span {
+  position: absolute;
+  width:140px;
+  color: #FFFFFF;
+  background: #5475bd;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  visibility: hidden;
+  border-radius: 6px;
+}
+a.tooltips span:after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0; height: 0;
+  border-bottom: 8px solid #5475bd;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+
+}
+a:hover.tooltips span {
+  visibility: visible;
+  opacity: 0.8;
+  top: 30px;
+  left: 50%;
+  margin-left: -76px;
+  z-index: 999;
+}
+
+.radio_escolha{
+
+  font-size: 18px;
+  line-height: 20px;
+  margin-right: 20px;
+
+}
+.selecao_raio{
+
+  margin-bottom: 20px;
+}
+
+.incluir_entrega{
+
+  margin-top: -95px;
+  margin-bottom: 55px;
+}
+
+.entrega{
+
+  margin-top: 30px;
+}
+
+._total{
+  color: #9296a0;
+  
+  background-color: #dfe7ea;
+  line-height: 40px!important;
+  border-top:0px!important;
+
+}
+._total_2{
+  color: #005984;
+  font-weight: bold;
+  background-color: #dfe7ea;
+  line-height: 40px!important;
+  border-top:0px!important;
+
+}
+
+.serie{
+
+
+  width: 250px;
+  border: 1px solid #285a82;
+  border-radius: 2px;
+  line-height: 30px;
+
+}
+.titulo{
+
+  background-color: #cddee5;
+
+
+}
+
+.arquivos_tabela{
+
+  background-color: #fff;
+  color: #9a9fa7;
+  
+}
+
+.anexos{
+margin-top: 65px;
+  width: 490px;
+}
+.excluir{
+
+
+  background-color: #eaf0f2;
+
+  border-top:0px!important;
+  
+
 }
